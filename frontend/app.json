@@ -1,28 +1,26 @@
 {
   "expo": {
-    "name": "frontend",
-    "slug": "frontend",
+    "name": "Minion",
+    "slug": "minion",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "frontend",
+    "icon": "./src/assets/ihate.jpg",
+    "scheme": "minion",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./src/assets/ihate.jpg"
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "./src/assets/ihate.jpg"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.notbad007.frontend"
+      "package": "com.notbad007.minion"
     },
     "web": {
       "output": "single",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./src/assets/ihate.jpg"
     },
     "plugins": [
       [
@@ -30,8 +28,8 @@
         {
           "backgroundColor": "#208AEF",
           "android": {
-            "image": "./assets/images/splash-icon.png",
-            "imageWidth": 76
+            "image": "./src/assets/ihate.jpg",
+            "imageWidth": 200
           }
         }
       ]
